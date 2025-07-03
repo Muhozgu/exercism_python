@@ -1,5 +1,5 @@
 """Functions for implementing the rules of the classic arcade game Pac-Man."""
-
+print("Pac-Man Game Module Loaded")
 
 def eat_ghost(power_pellet_active, touching_ghost):
     """Verify that Pac-Man can eat a ghost if he is empowered by a power pellet.
@@ -47,4 +47,4 @@ def win(has_eaten_all_dots, power_pellet_active, touching_ghost):
         return True
     return False
 
-print(True, )
+#---------------------------------------------------------------------------------- FINAL -----------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+print("Currency Exchange Module Loaded")
+
 def exchange_money(budget, exchange_rate):
     """
 
@@ -67,3 +69,5 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
 
     # Total value in full bills
     return number_of_bills * denomination
+
+#---------------------------------------------------------------------------------- FINAL -----------------------------------------------------------------------------------

@@ -1,3 +1,5 @@
+print("Armstrong Numbers Module Loaded")
+
 def is_armstrong_number(number):
     # Convert the number to a string to get its digits
     digits = str(number)
@@ -8,3 +10,4 @@ def is_armstrong_number(number):
 
     # Compare the sum with the original number
     return total == number
+#---------------------------------------------------------------------------------- FINAL -----------------------------------------------------------------------------------
